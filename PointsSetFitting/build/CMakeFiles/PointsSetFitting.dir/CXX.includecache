@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/certa/PointsSetFitting/obj_reader.h
+stdlib.h
+-
+Eigen/Dense
+-
+unsupported/Eigen/FFT
+-
+vector
+-
+
+/home/certa/PointsSetFitting/point_sets_fitting.cpp
+stdlib.h
+-
+stdio.h
+-
+memory.h
+-
+iostream
+-
+typeinfo
+-
+obj_reader.h
+/home/certa/PointsSetFitting/obj_reader.h
+point_sets_fitting.h
+/home/certa/PointsSetFitting/point_sets_fitting.h
+Eigen/Dense
+-
+unsupported/Eigen/FFT
+-
+tuple
+-
+
+/home/certa/PointsSetFitting/point_sets_fitting.h
+obj_reader.h
+/home/certa/PointsSetFitting/obj_reader.h
+tuple
+-
+

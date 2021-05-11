@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/PointsSetFitting.dir/main.cpp.o CMakeFiles/PointsSetFitting.dir/obj_reader.cpp.o  -o PointsSetFitting 
